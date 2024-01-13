@@ -1,0 +1,11 @@
+<!-- res/menu/filter_menu.xml -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_negative"
+        android:title="Negative" />
+    <item
+        android:id="@+id/menu_item_sepia"
+        android:title="Sepia" />
+    <!-- Add more filters as needed -->
+</menu>
