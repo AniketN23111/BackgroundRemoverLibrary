@@ -5,11 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="match_parent"
         android:layout_above="@+id/horizontalScrollView"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -51,8 +57,6 @@
                 android:layout_margin="16dp"
                 android:text="Change Color" />
 
-            <!-- Add more buttons as needed -->
-
             <Button
                 android:id="@+id/applyFilterBtn"
                 android:layout_width="wrap_content"
@@ -60,11 +64,17 @@
                 android:layout_margin="16dp"
                 android:text="Apply Filter" />
             <Button
-                android:id="@+id/downloadPdf"
+                android:id="@+id/resetBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="pdf" />
+                android:text="Reset Background" />
+            <Button
+                android:id="@+id/changeBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Change Background" />
             <Button
                 android:id="@+id/downloadWord"
                 android:layout_width="wrap_content"
